@@ -38,7 +38,7 @@ export default class Avatar extends Component {
         style={{borderRadius}}
         title={title}
       >
-        {src && <img className='bui-avatar__img' src={src} alt={title}/>}
+        {src && <img src={src} alt={title}/>}
       </div>
     )
   }
